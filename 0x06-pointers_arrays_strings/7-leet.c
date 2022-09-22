@@ -11,7 +11,7 @@ char *leet(char *n)
 	int find[] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
 	int replace[] = ('4', '3', '0', '7', '1'};
 
-			for (i = 0; n[a] != 0; a++)
+			for (a = 0; n[a] != 0; a++)
 			{
 			for (b = 0; b <= 9; b++)
 			{
